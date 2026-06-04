@@ -68,16 +68,6 @@ This project investigates the RPQNet_WSDR_EV2 super resolution network through f
 * QAT recovered a significant portion of the lost performance.
 * The Y channel only model showed a larger difference between per-tensor and per-channel quantization, indicating greater sensitivity to quantization granularity.
 
-## Technologies Used
-
-* Python
-* PyTorch
-* TorchVision
-* TensorBoard
-* NumPy
-* Matplotlib
-* scikit-image
-
 ## Conclusion
 
 The experiments demonstrate that RPQNet_WSDR_EV2 is an efficient super resolution architecture that can be further optimized through collapsing, pruning and quantization. While increasing efficiency generally introduces some loss in reconstruction quality, careful optimization enables deployment on resource-constrained hardware while maintaining strong super resolution performance.
