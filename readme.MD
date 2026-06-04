@@ -1,4 +1,4 @@
-# RPQNet_WSDR_EV2 - Super Resolution Optimization
+# RPQNet - Super Resolution Optimization
 
 ## Overview
 
